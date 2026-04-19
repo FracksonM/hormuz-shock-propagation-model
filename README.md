@@ -3,7 +3,7 @@
 **A news-driven probabilistic forecasting model for Brent Crude price under Strait of Hormuz conflict scenarios.**
 
 Built in response to the 2026 Iran war (Operation Epic Fury, initiated 28 February 2026), in which
-the Strait of Hormuz — through which approximately 20% of global oil trade passes — became the
+the Strait of Hormuz - through which approximately 20% of global oil trade passes - became the
 central economic chokepoint of an active military conflict. Brent Crude swung from $81 in
 January 2026 to a peak above $119 during full closure, falling back toward $90 on partial
 reopening signals.
@@ -45,7 +45,7 @@ Time-series cross-validation (5-fold, no data leakage) used throughout.
 
 **Key finding**: Short-term return predictability is dominated by price autocorrelation
 (volatility, lagged returns), which is expected and honest. Conflict features contribute
-meaningfully in the tail — the model correctly amplifies war-period volatility in its residual
+meaningfully in the tail - the model correctly amplifies war-period volatility in its residual
 distribution (Fold 5 RMSE 2.73% vs ~0.93% in calmer folds).
 
 ### Scenario Simulation
