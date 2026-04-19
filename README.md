@@ -70,6 +70,7 @@ picture including downside risk.
 
 ## Project Structure
 
+```
 hormuz-shock-propagation-model/
 ├── src/
 │   ├── data_pipeline.py     # Live price pull, events table, panel construction
@@ -84,9 +85,10 @@ hormuz-shock-propagation-model/
 │   ├── 01_data_exploration.ipynb
 │   └── 02_model_and_scenarios.ipynb
 └── outputs/
-├── model_diagnostics.png
-├── scenario_forecasts.png
-└── scenario_summary.csv
+    ├── model_diagnostics.png
+    ├── scenario_forecasts.png
+    └── scenario_summary.csv
+```
 
 ## How to Run
 
@@ -114,6 +116,6 @@ freight rates, and equities of Gulf-exposed firms.
 
 ## Author
 
-Frackson Makwangwala
-Applied Data Scientist | PhD Candidate, LUANAR
+Frackson Makwangwala  
+Applied Data Scientist | PhD Candidate, LUANAR  
 Lilongwe, Malawi
